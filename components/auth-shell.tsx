@@ -179,7 +179,7 @@ export function AuthShell() {
       <div className="verify-banner" role="alert">
         <div>
           <strong>Verify your email to enter the world.</strong>
-          <span>We sent a link to {authUser.email}. check the soam folder Click it, then come back here — this updates automatically.</span>
+          <span>We sent a link to {authUser.email}. check the spam folder Click it, then come back here — this updates automatically.</span>
         </div>
         <div className="verify-banner-actions">
           <button className="outline-gold" disabled={resending || resendCooldown} onClick={resendVerification}>
